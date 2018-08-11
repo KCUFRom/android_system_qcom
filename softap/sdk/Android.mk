@@ -67,5 +67,7 @@ LOCAL_SHARED_LIBRARIES := libnetutils libutils libbinder libcutils libhardware_l
 
 LOCAL_VENDOR_MODULE := true
 
+LOCAL_CFLAGS += -Wno-error
+
 include $(BUILD_SHARED_LIBRARY)
 
